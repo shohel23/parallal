@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+nav ul li a{
+    color: #fff;
+    font-family: sans-serif;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    transition: all linear .4s;
+}
+
+nav ul li a:hover{
+    color: #333;
+    background: yellow;
+}
+
+nav a.active{
+    background: aquamarine;
+    color: #222;
+}
+
+#main-menu{
+    position: fixed;
+    text-align: center;
+}
+p{
+    width: 40%;
+    color: #fff;
+    line-height: 18px;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+h2{
+    color: #cb2323;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-weight: 800;
+
+}
+
+section{
+    width: 100%;
+    padding: 100px;
+    margin: 0;
+}
+
+#section1{
+    background: url(images/img1.JPG);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+#section2{
+    background: url(images/img2.JPG);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#section3{
+    background: url(images/img3.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+#section4{
+    background: url(images/img4.JPG);
+   background-attachment: fixed;
+    background-size: cover;
+}
+
+#section5{
+    background: url(images/img6.JPG);
+    background-size: cover;
+}
